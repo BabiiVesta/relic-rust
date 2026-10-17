@@ -1,4 +1,4 @@
-# UE5 Roadmap — Mac-first, automation-heavy
+# UE5 Roadmap — Mac and Windows prototype
 
 ## Current state (2026-10-16)
 
@@ -24,9 +24,9 @@ Implemented as a compact runtime arena: field record, two-enemy encounter, relay
 
 Next: interactively profile on the target Mac; improve combat feel; produce and test a clean Development package from a fresh folder; then share through private Git or AirDrop. The current source ZIP should exclude generated build products and logs.
 
-## Mac constraints and cost
+## Platforms and cost
 
-The prototype was built with Unreal Engine 5.8, Xcode 27.0, and an Apple Clang arm64 toolchain; see `Docs/BUILD_NOTES.md`. No paid assets or plugins are required. Verify any future marketplace content and plugins for macOS support before adoption.
+The project has build scripts for macOS and Windows. Windows setup requires a UE 5.8-supported Visual Studio toolchain; see `Docs/README_FIRST.md`. No paid assets or plugins are required. Verify any future marketplace content and plugins for both platforms before adoption.
 
 ## AI handoff prompt
 
