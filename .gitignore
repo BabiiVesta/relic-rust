@@ -1,0 +1,12 @@
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.DS_Store
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+BuildLog*.txt
+BuildLog*.json
+CreateMapLog*
+Build/Mac/FileOpenOrder/
+Build/Mac/*.PackageVersionCounter
